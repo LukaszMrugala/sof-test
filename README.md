@@ -13,6 +13,8 @@
   - [Tools list description](#tools-list-description)
 ## Environment set up
 ### requirements
+
+
 #### apt packages
 expect alsa-utils python3 python3-construct python3-graphviz
 ```
@@ -63,7 +65,7 @@ Some tests support these environment variables (work in progress):
   Set this variable to 'alsa' (default value) or 'tinyalsa' to choose between the ALSA and TinyALSA toolsets.
   - SOF_ALSA_OPTS contains optional parameters passed on both play and record.
   - SOF_APLAY_OPTS and SOF_ARECORD_OPTS contain optional parameters passed additionally on play and record respectively.
-These options are applied to the selected tool (alsa or tinyalsa) based on the value of SOF_ALSA_TOOL 
+These options are applied to the selected tool (alsa or tinyalsa) based on the value of SOF_ALSA_TOOL
 
 Warning, these environment variables do NOT support parameters
 with whitespace or globbing characters, in other words this does NOT
